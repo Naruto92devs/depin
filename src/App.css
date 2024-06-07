@@ -166,7 +166,7 @@ img{
 .hero_section .right .circle {
   width: 100%;
   z-index: 2;
-  animation: rotate 20s infinite linear forwards;
+  animation: rotate 40s infinite linear forwards;
 }
 
 @keyframes rotate {
@@ -191,7 +191,7 @@ img{
   width: 70%;
   position: absolute;
   z-index: 1;
-  animation: rotate 20s infinite linear reverse;
+  /* animation: rotate 20s infinite linear reverse; */
 }
 
 .hero_section .s1 {
@@ -423,6 +423,7 @@ img{
     border:  .1vw solid rgba(255, 255, 255, 0.12);
     padding: 3vw;
     margin-top: 2vw;
+    position: relative;
   }
 
 
@@ -457,7 +458,7 @@ img{
     width: 20vw;
     margin-top: -50vw;
     z-index: 3;
-    animation: rotate 10s infinite linear reverse;
+    /* animation: rotate 10s infinite linear reverse; */
   }
 
   .roadmap .box {
@@ -908,7 +909,7 @@ img{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-top: 3vw;
+    padding-top: 8vw;
   }
 
   .tokenomics .left .content ul {
@@ -917,7 +918,7 @@ img{
 
   .tokenomics .left .content ul:nth-of-type(1) li {
     color: white;
-    font-size: 3vw;
+    font-size: 2.9vw;
     line-height: 140%;
     list-style: disc;
     text-align: left;
@@ -926,7 +927,7 @@ img{
   .tokenomics .left .content ul:nth-of-type(2) li {
     color: #F0F0F0;
     opacity: .7;
-    font-size: 3vw;
+    font-size: 2.9vw;
     line-height: 140%;
     list-style: disc;
     text-align: left;

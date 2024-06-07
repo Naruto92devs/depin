@@ -1,6 +1,6 @@
 import '../App.css';
 import '../index.css';
-
+import AnimatedDots from './Animateddots';
 function Home() {
 
 
@@ -23,6 +23,7 @@ function Home() {
             </div>
           </div>
           <div className='right'>
+          <AnimatedDots className="dots1" />
             <img className='circle' src='/images/hero-circle.png' alt='logo' />
             <img className='circle-bg' src='/images/hero-circle-bg.png' alt='logo' />
           </div>
@@ -114,6 +115,7 @@ function Home() {
           <div className='left'>
             <img src='/images/web3.png' alt='logo'/>
             <img className='bg' src='/images/web3-bg.png' alt='logo'/>
+            <AnimatedDots className="dots2" />
           </div>
           <div className='right'>
           <img className='bg' src='/images/web3-bg1.png' alt='logo'/>
@@ -150,9 +152,11 @@ function Home() {
           <div className='right'>
             <img src='/images/token-img.png' alt='logo'/>
             <img className='bg' src='/images/web3-bg.png' alt='logo'/>
+            <AnimatedDots className="dots3" />
           </div>
         </div>
         <div className='started'>
+        <AnimatedDots className="dots4" />
           <div className='left'>
             <h2>Lorem ipsum dolor sit</h2>
             <p>We work hard every day to make life of our clients better and happier</p>
@@ -209,6 +213,7 @@ function Home() {
           <img src='/images/roadmap-bg.png' alt='logo' className='bg' />
           <img src='/images/roadmap.png' alt='logo' className='map' />
           <img src='/images/web3.png' alt='logo' className='eth' />
+          <AnimatedDots className="dots5" />
         </div>
 
         {/* -------------secure------------- */}
@@ -222,6 +227,7 @@ function Home() {
           </a>
           <img src='/images/secure1.png' className='img1' alt='logo' />
           <img src='/images/secure2.png' className='img2' alt='logo' />
+          <AnimatedDots className="dots6" />
         </div>
 
         <p className='disclaimer'>
